@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+backend/alembic/versions/*.py
+
+# Logs
+*.log
+
+# Docker override (dev-specific)
+docker-compose.override.yml
+
+# Test coverage
+backend/htmlcov/
+frontend/coverage/
+.coverage
+.pytest_cache
+*.cover
+
